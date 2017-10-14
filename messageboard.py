@@ -11,6 +11,6 @@ form = '''<!DOCTYPE html>
     <button type="submit">Post it!</button>
   </form>
   <pre>
-
+{}
   </pre>
 '''
