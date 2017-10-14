@@ -14,3 +14,5 @@ form = '''<!DOCTYPE html>
 {}
   </pre>
 '''
+
+class MessageHandler(BaseHTTPRequestHandler):
