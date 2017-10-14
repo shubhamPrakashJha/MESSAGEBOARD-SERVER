@@ -50,6 +50,6 @@ class MessageHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    server_address = ('', 8000)
+    server_address = ('', 5000)
     httpd = HTTPServer(server_address, MessageHandler)
     httpd.serve_forever()
